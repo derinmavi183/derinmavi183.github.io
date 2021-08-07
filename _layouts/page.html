@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<article class="post">
+
+<div class="container py-4" style="max-width:1320px;">
+
+  {%- include header2.html -%}
+  <article class="post">
 
   <header class="post-header py-3">
     <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -12,3 +16,8 @@ layout: default
   </div>
 
 </article>
+    <footer class="pt-3 mt-4 text-muted border-top">
+      © 2021
+    </footer>
+ 
+</div>
