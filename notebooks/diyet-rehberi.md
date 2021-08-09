@@ -45,4 +45,4 @@ Bir yandan da bu süreci devamlı bir gelişim olarak görüyorum. Birinci önce
 * 08.08.2021 | A | 4 Adet Sarma - 160 kcal | 8 TL
 * 08.08.2021 | A | Züber Lokma Fındık Kaptlı - 45 kcal | 13.50 TL
 * 08.08.2021 | Toplam : 675 kcal | 48.50 TL
-* 08.08.2021 | G | Dublex Burger 200gr köfte - 900 apx. kcal | 38.25 TL
+* 09.08.2021 | G | Dublex Burger 200gr köfte - 900 apx. kcal | 38.25 TL
