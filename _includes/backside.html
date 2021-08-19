@@ -16,10 +16,12 @@
               {%- for post in posts -%}
               <div class="row mb-5">
                 <div class="col-md-4">
-                  <a>  <img src="https://raw.githubusercontent.com/derinmavi183/derinmavi.github.io/master/images/image.png" alt="" class=""></a>
+                    <div>
+                  <a>  <img src="https://raw.githubusercontent.com/derinmavi183/derinmavi.github.io/master/images/image.png" alt="" class=""></a></div>
                 </div>
 
               <div class="col-md-8">
+                  <div>
                 <span class="post-meta2 text-muted">{{ post.date | date: date_format }}</span>
                 <h3>
                   <a class="post-link2 text-decoration-none" href="{{ post.url | relative_url }}">
@@ -29,6 +31,7 @@
                 {%- if site.excerpts.show -%}
                   {%- if site.excerpts.auto_truncate -%}{{ post.excerpt | truncatewords: 32 }}{%- else -%}{{ post.excerpt }}{%- endif -%}
                 {%- endif -%}
+            </div>
               </div>
             </div>
               {%- endfor -%}
@@ -66,7 +69,7 @@
               <button class="btn btn-outline-light" type="button">Devamını Oku</button>
           </div>
       
-           <div class="p-3 bg-light border rounded-3">
+           <div class="p-3 mb-3 bg-light border rounded-3">
             <h2>Havadan Sudan</h2>
             <p>Pek çok düşünürün aforizmalara yönelmesine şaşmamalı. Kimi zaman daha şiirsel kısa sembolik satırlar pek çok şeyi özetleyebiliyor.</p>
             <a class="btn btn-outline-secondary" href="https://derinmavi.io/kisa-kisa">Devamını Oku</a>
