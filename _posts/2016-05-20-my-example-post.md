@@ -1,6 +1,7 @@
 ---
 layout: post
-title: ddd
+title: "This post demonstrates post content styles"
+thumb: "https://raw.githubusercontent.com/derinmavi183/derinmavi.github.io/master/images/image.png"
 category: misc
 ---
 
